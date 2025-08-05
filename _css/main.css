@@ -1,0 +1,40 @@
+body{
+    background-image: url(../_imagens/capacete-ayrton-senna-senna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    text-shadow: blue 2px 3px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gold;
+    border-style: solid;
+    border-color: green;
+    border-radius: 1px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.image{
+    border: 15px solid white;
+    width: 20%;
+    height: 20%;
+    box-shadow: 3px 3px red;
+    position: relative;
+    transition: linear 0.25s;
+}
+
+.rotate1{
+    transform: rotate(10deg);
+}
+
+.rotate2{
+    transform: rotate(-10deg);
+}
+
+.image:hover{
+    transform: rotate(0deg) scale(1.2);
+}
